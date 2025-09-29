@@ -1,6 +1,7 @@
 <p align="center">
 <img src="https://i.ibb.co.com/C30Fv8rd/00a090fe5729fee5ae6982a1c96e15f7-1.jpg" alt="CELESTE BOT" width="150"/>
-<p style="font-size: 40px; text-align: center;">☾ 𝐂𝐞𝐥𝐞𝐬𝐭𝐞 𝐁𝐨𝐭 ☽</h1>
+	
+<h1 style="font-size: 40px; text-align: center;">☾ 𝐂𝐞𝐥𝐞𝐬𝐭𝐞 𝐁𝐨𝐭 ☽</h1>
 
 # About
 This is a basic WhatsApp bot script built using a modified Baileys library. It is designed as a script template to help other developers create their bot scripts so they don't have to start from scratch.
