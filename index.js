@@ -147,13 +147,12 @@ async function waBot() {
   const { state, saveCreds } = await useMultiFileAuthState("session");
   const { isLatest } = await fetchLatestWaWebVersion();
   const msgRetryCounterCache = new NodeCache();
-const { version } = await axios.get("https://raw.githubusercontent.com/nstar-y/Bail/refs/heads/main/src/Defaults/baileys-version.json").then(res => res.data)
 
   const Celeste = makeWASocket({
     printQRInTerminal: !pairingCode,
     logger: pino({ level: "silent" }),
     auth: state,
-    version: version,
+    version: [2, 3000, 1027934701],
     emitOwnEvents: true,
     fireInitQueries: true,
     generateHighQualityLinkPreview: true,
